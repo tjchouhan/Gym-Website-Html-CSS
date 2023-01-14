@@ -1,0 +1,134 @@
+
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        /* background : url('img/sports.png') ; */
+        background-image: url('sports.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red;  */
+        position: absolute;
+        left: 64px;
+        top: 20px;
+
+
+    }
+
+    .left img {
+        width: 120px;
+        filter: invert(100%);
+        /* margin-left: 15px; */
+    }
+
+    .left div {
+        font-family: 'Ubuntu', sans-serif;
+        text-align: center;
+        font-size: 30px;
+        font-size: 30px;
+        /* line-height: 26px; */
+    }
+
+    .mid {
+        display: block;
+        /* padding: 12px; */
+        width: 57%;
+        margin: 13px auto;
+        /* border: 2px solid green; */
+        /* font-size: 50px; */
+
+    }
+
+    .right {
+        display: unset;
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+
+    }
+
+    .navbar {
+        display: inline;
+        font-family: 'Baluoo Bhai';
+        width: 43px;
+        font-size: 50px;
+    }
+
+    .navbar li {
+        display: inline;
+        font-size: 27px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        /* text-decoration: underline; */
+        text-decoration: wavy;
+        color: rgb(229, 122, 122);
+    }
+
+    .btn {
+        font-family: 'Baluoo Bhai'cursive;
+        border-radius: 30px;
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 7px 10px;
+        /* border-radius: 10px; */
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(170, 29, 29);
+        
+    }
+
+    .container {
+        position: absolute;
+        right: 2px;
+        border: 2px solid white;
+        padding: 72px 75px;
+        margin: 70px auto;
+        border-radius: 25px;
+        width: 30%;
+        /* left: 100px; */
+
+    }
+
+    .form-group input {
+        border-radius: 20px;
+        margin: 8px auto;
+        padding: 11px 58px;
+        text-align: center;
+        display: block;
+        width: 212px;
+        font-size: 15px;
+        font-family: 'Baluoo Bhai'cursive;
+        border: 2px solid black;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        font-size: 20px;
+        text-align: center;
+        display: block;
+        width: 71%;
+        margin: auto;
+        border-radius: 20px;
+        padding: 10px 10px;
+    }
